@@ -159,7 +159,7 @@ export const officeContent = {
   telehealthAddress: "Available to all California-based clients via encrypted video"
 };
 
-export const introContent = {
+export const philosophyContent = {
   title: "You're holding onto hope that life can be better than it is right now.",
   subtitle: "At the practice of Dr. Maya Reynolds, I want to make that hope a reality.",
   description: "Whether you're an adult seeking relief from anxiety, navigating the aftermath of past experiences, or a professional struggling with burnout and high internal pressure - I provide a warm, compassionate, and safe space to help you navigate all of life's ups and downs.",

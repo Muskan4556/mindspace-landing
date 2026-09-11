@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { introContent } from "../data/content";
+import { philosophyContent } from "../data/content";
 
 export default function Philosophy() {
   return (
@@ -15,20 +15,19 @@ export default function Philosophy() {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <h2 className="font-heading text-4xl lg:text-5xl text-charcoal leading-[1.2] mb-8">
-              {introContent.title}
+              {philosophyContent.title}
             </h2>
 
             <div className="space-y-4">
               <p className="font-body text-[11px] tracking-[0.2em] uppercase font-semibold text-terracotta">
-                {introContent.subtitle}
+                {philosophyContent.subtitle}
               </p>
               <p className="font-body text-charcoal-light text-base leading-relaxed">
-                {introContent.description}
+                {philosophyContent.description}
               </p>
             </div>
           </motion.div>
 
-          {/* Right */}
           <motion.div
             initial={{ opacity: 0, y: 32 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -37,10 +36,10 @@ export default function Philosophy() {
             className="space-y-4"
           >
             <p className="font-body text-charcoal-light text-base leading-relaxed">
-              {introContent.paragraph1}
+              {philosophyContent.paragraph1}
             </p>
             <p className="font-body text-charcoal-light text-base leading-relaxed">
-              {introContent.paragraph2}
+              {philosophyContent.paragraph2}
             </p>
             <a
               href="#about"
@@ -50,7 +49,7 @@ export default function Philosophy() {
               }}
               className="inline-block font-body text-[11px] tracking-[0.2em] uppercase text-charcoal font-semibold border-b border-charcoal pb-0.5 mt-4 hover:text-sage hover:border-sage transition-colors"
             >
-              {introContent.ctaText}
+              {philosophyContent.ctaText}
             </a>
           </motion.div>
         </div>
