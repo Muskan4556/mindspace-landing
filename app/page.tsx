@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Intro from "./components/Intro";
+import Philosophy from "./components/Philosophy";
 import About from "./components/About";
 import Services from "./components/Services";
 import QuoteBanner from "./components/QuoteBanner";
@@ -16,7 +16,7 @@ export default function HomePage() {
     <main>
       <Navbar />
       <Hero />
-      <Intro />
+      <Philosophy />
       <About />
       <Services />
       <QuoteBanner />
